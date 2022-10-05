@@ -2,19 +2,15 @@
 > This is my portfolio website which showcases some of my works.
 > Live demo [_here_](https://shayanb-68fb5.web.app/). <!-- If you have the project hosted somewhere, include the link here. -->
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Features](#features)
-* [Screenshots](#screenshots)
-* [Setup](#setup)
-* [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
-<!-- * [License](#license) -->
+<center>
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
+![GitHub Repo stars](https://img.shields.io/github/stars/shayanbagchi/shayanb?color=red&logo=github&style=for-the-badge) &nbsp;
+![GitHub forks](https://img.shields.io/github/forks/shayanbagchi/shayanb?color=red&logo=github&style=for-the-badge)
+
+</center>
 
 ## General Information
 - Provide general information about your project here.
@@ -25,16 +21,20 @@
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+This project was built using these technologies.
+
+- React.js
+- Node.js
+- CSS3
+- Firebase
+- VsCode
 
 
 ## Features
 List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Fully Responsive
+- SPA
+- Follows industry coding standards
 
 
 ## Screenshots
@@ -42,44 +42,33 @@ List the ready features here:
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+## Getting Started
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
 
+## 🛠 Installation and Setup Instructions
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+1. Installation: `npm install`
 
-`write-your-code-here`
+2. In the project directory, you can run: `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The page will reload if you make edits.
 
-## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+## Usage Instructions
 
+Open the project folder and Navigate to `/src`. <br/>
+You will find all the components used and you can edit your information accordingly.
 
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+### Show your support
 
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
+Give a ⭐ if you like this website!
 
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
-
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+- This logo was made by Ujjwal Mishra
 
 
 <!-- Optional -->
