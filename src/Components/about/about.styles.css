@@ -24,7 +24,8 @@
 }
 
 .display-1 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
     font-size: 6.3rem;
     text-align: left;
     line-height: 1.25;
@@ -44,12 +45,12 @@
 }
 
 .about-desc p{
-    font-family: "montserrat-light";
+    font-weight: 400;
     margin-bottom: 2rem;
 }
 
 ul.skills-list{
-    font-family: "montserrat-light", sans-serif;
+    font-weight: 500;
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 240px));
     gap: 0px 10px;
@@ -71,8 +72,6 @@ ul.skills-list li{
     position: relative;
     margin-bottom: 10px;
     padding-left: 20px;
-    font-family: var(--font-mono);
-    font-size: var(--fz-xs);
 }
 
 

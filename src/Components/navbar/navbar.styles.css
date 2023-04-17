@@ -34,7 +34,7 @@
 .header-nav {
     background: #0c0c0c;
     color: rgba(255, 255, 255, .25);
-    font-family: "montserrat-light", sans-serif;
+    font-family: "Montserrat";
     font-size: 1.3rem;
     line-height: 1.846;
     padding: 3.6rem 3rem 3.6rem 3.6rem;
@@ -68,7 +68,7 @@
 }
 
 .header-nav h3 {
-    font-family: "montserrat-semibold", sans-serif;
+    font-weight: 600;
     font-size: 11px;
     line-height: 1.5;
     text-transform: uppercase;
@@ -90,7 +90,8 @@
 }
 
 .header-nav__list {
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
     font-size: 1.8rem;
     margin: 3.6rem 0 3rem 0;
     padding: 0 0 1.8rem 0;
@@ -99,12 +100,13 @@
 
 .header-nav__list li {
     padding-left: 0;
-    line-height: 4.5rem
+    letter-spacing: 0.08rem;
+    line-height: 4.5rem,
 }
 
-.header-nav__list a,
+.header-nav__list a,    
 .header-nav__list a:visited {
-    color: #fff
+    color: rgba(255, 255, 255, 0.40)
 }
 
 .header-nav__social {
@@ -202,7 +204,6 @@
     height: 42px;
     width: 42px;
     line-height: 42px;
-    font-family: "montserrat-medium", sans-serif;
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;

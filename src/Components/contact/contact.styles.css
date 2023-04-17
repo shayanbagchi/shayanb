@@ -20,7 +20,7 @@
 }
 
 .s-contact .subhead {
-    font-family: "montserrat-bold",sans-serif;
+    font-weight: 700;
     font-size: 1.7rem;
     line-height: 1.333;
     text-transform: uppercase;
@@ -31,7 +31,7 @@
 }
 
 .display-2 {
-    font-family: "montserrat-medium", sans-serif;
+    font-weight: 500;
     font-size: 5.2rem;
     line-height: 1.255;
     color: #000;
@@ -86,7 +86,7 @@
 }
 
 .s-contact .form-field label {
-    font-family: "montserrat-light", sans-serif;
+    font-weight: 300;
     font-size: 1rem;
     line-height: 2.4rem;
     position: absolute;
@@ -128,7 +128,7 @@
     color: rgba(255, 255, 255, .4);
     padding-top: 6rem;
     padding-bottom: 6rem;
-    font-family: "montserrat-light", sans-serif;
+    font-weight: 300;
     font-size: 1.5rem;
     line-height: 2;
     position: relative
@@ -307,7 +307,7 @@
 
 .submit-loader .text-loader {
     display: none;
-    font-family: "montserrat-regular", sans-serif;
+    font-weight: 400;
     font-size: 1.3rem;
     font-weight: bold;
     line-height: 1.846;

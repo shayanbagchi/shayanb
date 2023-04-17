@@ -38,6 +38,8 @@
     display: table-cell;
     width: 100%;
     height: 100%;
+    font-family: 'Montserrat';
+    font-weight: 700;
     vertical-align: middle;
     padding-bottom: 15.6rem;
     position: relative;
@@ -45,7 +47,7 @@
 }
 
 .home-content h3 {
-    font-family: "montserrat-medium", sans-serif;
+    font-weight: 500;
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.697);
     letter-spacing: .3rem;
@@ -56,7 +58,7 @@
 }
 
 .home-content h1 {
-    font-family: "montserrat-medium", sans-serif;
+    font-weight: 500;
     font-size: 6.3rem;
     line-height: 1.333;
     margin-top: 0;
@@ -64,7 +66,8 @@
 }
 
 .home-content p {
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     line-height: 1.5;
     letter-spacing: .16rem;
     margin-top: 0;
@@ -112,7 +115,7 @@
 }
 
 .home-content__scroll a {
-    font-family: "montserrat-semibold", sans-serif;
+    font-weight: 600;
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
@@ -156,7 +159,6 @@
 }
 
 .home-social {
-    font-family: "montserrat-regular", sans-serif;
     list-style: none;
     margin: 0;
     position: absolute;
@@ -184,7 +186,7 @@
     height: 33px
 }
 
-.home-social i,
+.home-social .icon,
 .home-social span {
     position: absolute;
     top: 0;
@@ -193,14 +195,13 @@
     transition: all .5s ease-in-out
 }
 
-.home-social i {
+.home-social .icon {
     font-size: 14px;
     right: 0;
     text-align: center;
     display: inline-block;
     width: 33px;
     height: 33px;
-    line-height: calc(33px - 4px);
     border: 2px solid #fff;
     border-radius: 50%
 }
@@ -370,7 +371,7 @@ html.cl-loaded .home-content__main {
     .home-social li {
         padding: .6rem 0
     }
-    .home-social i {
+    .home-social .icon {
         font-size: 17px;
         border: none
     }
